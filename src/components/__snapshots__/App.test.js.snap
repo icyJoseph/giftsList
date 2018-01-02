@@ -28,6 +28,7 @@ ShallowWrapper {
           bsStyle="default"
           className="btn-add"
           disabled={false}
+          onClick={[Function]}
 >
           Add Gift
 </Button>,
@@ -58,6 +59,7 @@ ShallowWrapper {
           "children": "Add Gift",
           "className": "btn-add",
           "disabled": false,
+          "onClick": [Function],
         },
         "ref": null,
         "rendered": "Add Gift",
@@ -83,6 +85,7 @@ ShallowWrapper {
             bsStyle="default"
             className="btn-add"
             disabled={false}
+            onClick={[Function]}
 >
             Add Gift
 </Button>,
@@ -113,6 +116,7 @@ ShallowWrapper {
             "children": "Add Gift",
             "className": "btn-add",
             "disabled": false,
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": "Add Gift",
