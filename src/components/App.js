@@ -30,7 +30,9 @@ class App extends Component {
       <div>
         <h2>Gifts</h2>
         <div className="gift-list">
-          {gifts.map(gift => <Gift key={gift.id} />)}
+          {gifts.map(gift => (
+            <Gift key={gift.id} gift={gift} removeGift={this.removeGift} />
+          ))}
         </div>
         <Button className="btn-add" onClick={this.addGift}>
           Add Gift
