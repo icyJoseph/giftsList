@@ -21,6 +21,8 @@ it("adds a new gift to `state` the `add gift` button", () => {
 });
 
 it("adds a new gift to the rendered list when clicking the `add gift` button", () => {
+  // HACK WARNING: here we are clicking the button for a second time!
+  // therefore there will be two items in the gift list
   app.find(".btn-add").simulate("click");
-  expect(app.find(".gift-list").children().length).toEqual(1);
+  expect(app.find(".gift-list").children().length).toEqual(2);
 });
