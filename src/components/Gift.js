@@ -16,7 +16,7 @@ class Gift extends Component {
   render() {
     const { removeGift, gift } = this.props;
     return (
-      <div>
+      <div className="gift">
         <Form>
           <FormGroup>
             <ControlLabel>Person</ControlLabel>
