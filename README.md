@@ -1,5 +1,7 @@
 # Gifts List
 
+[![Build Status](https://travis-ci.org/icyJoseph/giftsList.svg?branch=master)](https://travis-ci.org/icyJoseph/giftsList)
+
 App built using the Test Drive Development (TDD) coding style.
 
 ## Usage
@@ -33,5 +35,7 @@ npm run start
 ```
 npm run test -- --coverage
 ```
+
+## Acknowledgement
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
