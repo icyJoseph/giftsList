@@ -6,14 +6,20 @@ class App extends Component {
   };
 
   addGift = () => {
-    this.setState({ gifts: [{ id: 1 }] });
+    const { gifts } = this.state;
+    const ids = gifts.map(gift => gift.id);
+    const max_id = ids.length > 0 ? Math.max(...ids) : 0;
+
+    this.setState(prevState => ({
+      gifts: [...prevState.gifts, { id: max_id + 1 }]
+    }));
   };
 
   render() {
     return (
       <div>
         <h2>Gifts</h2>
-        <Button className="btn-add" onClick={() => this.addGift()}>
+        <Button className="btn-add" onClick={this.addGift}>
           Add Gift
         </Button>
       </div>
