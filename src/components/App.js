@@ -5,11 +5,17 @@ class App extends Component {
     gifts: []
   };
 
+  addGift = () => {
+    this.setState({ gifts: [{ id: 1 }] });
+  };
+
   render() {
     return (
       <div>
         <h2>Gifts</h2>
-        <Button className="btn-add">Add Gift</Button>
+        <Button className="btn-add" onClick={() => this.addGift()}>
+          Add Gift
+        </Button>
       </div>
     );
   }
