@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/icyJoseph/giftsList.svg?branch=master)](https://travis-ci.org/icyJoseph/giftsList)
 
-App built using the Test Drive Development (TDD) coding style.
+App built using the Test Driven Development (TDD) coding style.
 
 ## Usage
 
